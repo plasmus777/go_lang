@@ -3,6 +3,7 @@ package simple
 import (
 	"fmt"
 	"math/rand"
+	"reflect"
 )
 
 func Variables() {
@@ -14,7 +15,9 @@ func Variables() {
 
 	decimal = float64(number / 100000)
 
-	text := "- This is a test to check variables using go."
+	text := "This is a test to check variables using go."
 
-	fmt.Println(number, decimal, text)
+	fmt.Println(reflect.TypeOf(number), " - ", number)
+	fmt.Println(reflect.TypeOf(decimal), " - ", decimal)
+	fmt.Println(reflect.TypeOf(text), " - ", text)
 }
