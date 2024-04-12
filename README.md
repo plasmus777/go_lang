@@ -21,7 +21,7 @@ This will generate a file named "learning.exe" inside of the /go_lang/learning f
 
 3 - Execute the code (generated .exe file):
 ```
-./learning.exe
+./learning
 ```
 
 > [!WARNING]
