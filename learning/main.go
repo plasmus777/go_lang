@@ -20,7 +20,10 @@ func main() {
 		fmt.Println("5 - constants")
 		fmt.Println("6 - variable convertion")
 		fmt.Println("7 - strconv (string convertion)")
+
 		fmt.Println("8 - if")
+		fmt.Println("9 - for")
+
 		fmt.Println("")
 		fmt.Println("-1 - exit")
 		fmt.Println("---------------------------------")
@@ -51,6 +54,9 @@ func main() {
 
 		case 8:
 			fluxcontrol.If()
+
+		case 9:
+			fluxcontrol.For()
 
 		case -1:
 			fmt.Println("Exiting program.")
