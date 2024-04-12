@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"learning/fluxcontrol"
-	"learning/simple"
+
+	"github.com/plasmus777/go_lang/learning/fluxcontrol"
+	"github.com/plasmus777/go_lang/learning/simple"
 )
 
 func main() {
