@@ -3,11 +3,16 @@ package main
 import (
 	"fmt"
 
+	"github.com/plasmus777/go_lang/learning/arrays"
+	"github.com/plasmus777/go_lang/learning/exercises"
 	"github.com/plasmus777/go_lang/learning/fluxcontrol"
 	"github.com/plasmus777/go_lang/learning/simple"
 )
 
 func main() {
+
+	exercises.Ex1()
+
 	input := 1
 
 	for input >= 1 {
@@ -24,6 +29,9 @@ func main() {
 
 		fmt.Println("8 - if")
 		fmt.Println("9 - for")
+
+		fmt.Println("10 - arrays")
+		fmt.Println("11 - maps")
 
 		fmt.Println("")
 		fmt.Println("-1 - exit")
@@ -58,6 +66,12 @@ func main() {
 
 		case 9:
 			fluxcontrol.For()
+
+		case 10:
+			arrays.Arrays()
+
+		case 11:
+			arrays.Maps()
 
 		case -1:
 			fmt.Println("Exiting program.")
