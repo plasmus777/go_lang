@@ -4,14 +4,13 @@ import (
 	"fmt"
 
 	"github.com/plasmus777/go_lang/learning/arrays"
-	"github.com/plasmus777/go_lang/learning/exercises"
 	"github.com/plasmus777/go_lang/learning/fluxcontrol"
 	"github.com/plasmus777/go_lang/learning/simple"
 )
 
 func main() {
 
-	exercises.Ex1()
+	//exercises.Ex2()
 
 	input := 1
 
@@ -26,12 +25,12 @@ func main() {
 		fmt.Println("5 - constants")
 		fmt.Println("6 - variable convertion")
 		fmt.Println("7 - strconv (string convertion)")
-
 		fmt.Println("8 - if")
 		fmt.Println("9 - for")
-
 		fmt.Println("10 - arrays")
 		fmt.Println("11 - maps")
+		fmt.Println("12 - functions")
+		fmt.Println("13 - pointers")
 
 		fmt.Println("")
 		fmt.Println("-1 - exit")
@@ -72,6 +71,12 @@ func main() {
 
 		case 11:
 			arrays.Maps()
+
+		case 12:
+			simple.Functions()
+
+		case 13:
+			simple.Pointers()
 
 		case -1:
 			fmt.Println("Exiting program.")
