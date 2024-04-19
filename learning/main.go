@@ -31,6 +31,7 @@ func main() {
 		fmt.Println("11 - maps")
 		fmt.Println("12 - functions")
 		fmt.Println("13 - pointers")
+		fmt.Println("14 - structs")
 
 		fmt.Println("")
 		fmt.Println("-1 - exit")
@@ -77,6 +78,9 @@ func main() {
 
 		case 13:
 			simple.Pointers()
+
+		case 14:
+			simple.Structs()
 
 		case -1:
 			fmt.Println("Exiting program.")
