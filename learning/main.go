@@ -6,7 +6,6 @@ import (
 	"github.com/plasmus777/go_lang/learning/arrays"
 	"github.com/plasmus777/go_lang/learning/fluxcontrol"
 	"github.com/plasmus777/go_lang/learning/inheritance"
-	"github.com/plasmus777/go_lang/learning/interfaces"
 	"github.com/plasmus777/go_lang/learning/simple"
 )
 
@@ -36,6 +35,7 @@ func main() {
 		fmt.Println("14 - structs")
 		fmt.Println("15 - inheritance")
 		fmt.Println("16 - interfaces")
+		fmt.Println("17 - generics")
 
 		fmt.Println("")
 		fmt.Println("-1 - exit")
@@ -90,7 +90,10 @@ func main() {
 			inheritance.Inheritance()
 
 		case 16:
-			interfaces.Interfaces()
+			simple.Interfaces()
+
+		case 17:
+			simple.Generics()
 
 		case -1:
 			fmt.Println("Exiting program.")
