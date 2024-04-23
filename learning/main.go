@@ -6,12 +6,13 @@ import (
 	"github.com/plasmus777/go_lang/learning/arrays"
 	"github.com/plasmus777/go_lang/learning/fluxcontrol"
 	"github.com/plasmus777/go_lang/learning/inheritance"
+	"github.com/plasmus777/go_lang/learning/interfaces"
 	"github.com/plasmus777/go_lang/learning/simple"
 )
 
 func main() {
 
-	//exercises.Ex2()
+	// exercises.Ex3_4_5()
 
 	input := 1
 
@@ -34,6 +35,7 @@ func main() {
 		fmt.Println("13 - pointers")
 		fmt.Println("14 - structs")
 		fmt.Println("15 - inheritance")
+		fmt.Println("16 - interfaces")
 
 		fmt.Println("")
 		fmt.Println("-1 - exit")
@@ -86,6 +88,9 @@ func main() {
 
 		case 15:
 			inheritance.Inheritance()
+
+		case 16:
+			interfaces.Interfaces()
 
 		case -1:
 			fmt.Println("Exiting program.")
